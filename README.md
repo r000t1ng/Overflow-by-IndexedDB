@@ -8,5 +8,4 @@ Esse script contem um laço de repetição efetuando um contador de redirecionam
 
 Proof Of Concept:<br>
 ![alt text](https://i.imgur.com/KytoFG6.jpeg)
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://i.imgur.com/e0SviKQ.mp4)
-
+[![Watch the video](https://i.stack.imgur.com/gHrep.png)](https://i.imgur.com/e0SviKQ.mp4)
