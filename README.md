@@ -8,4 +8,5 @@ Esse script contem um laço de repetição efetuando um contador de redirecionam
 
 Proof Of Concept:<br>
 ![alt text](https://i.imgur.com/KytoFG6.jpeg)
-[![Watch the video](https://i.stack.imgur.com/gHrep.png)](https://i.imgur.com/e0SviKQ.mp4)
+https://github.com/r000t1ng/Overflow-by-IndexedDB/assets/82407457/c354263b-718a-44f4-957a-de5395b353f8
+
